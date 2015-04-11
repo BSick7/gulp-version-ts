@@ -19,7 +19,7 @@ exports.apply = function (options) {
 
 function defaults(options) {
     if (!options.templatePath) {
-        options.templatePath = path.join(__dirname, '..', 'template', 'version_template.ts');
+        options.templatePath = path.join(__dirname, 'template', 'version_template.ts');
     }
     if (!options.label) {
         options.label = 'version';
