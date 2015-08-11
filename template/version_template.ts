@@ -1,3 +1,3 @@
-module %MODULE% {
+namespace %MODULE% {
     export var %LABEL% = '%VERSION%';
 }
